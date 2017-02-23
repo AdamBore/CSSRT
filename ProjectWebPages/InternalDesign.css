@@ -1,0 +1,116 @@
+/*
+this page is to control the design settings for all pages except the main page. 
+most settings are the same except a few miner tweaks. 
+is a setting is unclear you can look for the remark in the 
+MainDesign.css file. all tweaks that are unique for this file 
+are explained bellow.
+*/ 
+
+@CHARSET "ISO-8859-1";
+
+title {
+    
+}
+
+body {
+	background-color: lightgrey;
+	align
+	="center"
+	html
+	lang="en-US"
+	text-align
+	:
+	center;
+}
+
+h1 {
+	color: blue;
+	text-align: center;
+	font-size: 60px;
+}
+
+.button {
+	background-color: #000000;
+	color: #FF0000;
+	float: left; 
+	align ="center";
+	width : 150px;
+	height: 24px;
+	text-align: center;
+	margin: 20px 50px;
+	padding: 25px;
+
+}
+
+
+.href {
+	background-color: #000000;
+	color: #FF0000;
+	float: center; align ="center" width : 150px;
+	height: 24px;
+	text-align: center;
+	margin: 20px 50px;
+	position: relative;
+	top: 50%;
+	left: 50%;
+}
+
+div.relative {
+	position: relative;
+	left: 30px;
+	border: 3px solid #73AD21;
+}
+
+.wrapper {
+	text-align: center;
+}
+
+.container{
+	width:1200px;
+	margin:auto;
+}
+
+.contTripel{
+	clear: both;
+	width: 952px;
+	margin:auto;
+}
+
+.contDouble{
+	float: left !important;
+}
+
+.contButtom{ 
+	float: right !important;
+}
+
+.bottomRow{
+	clear: both;
+	width:1050px;
+	margin: auto;
+}
+/*
+here extra padding is added to accommodate for the "missing"row 
+this is for pages that have two rows of buttons and not three.
+*/
+.bottomRow a{
+	margin: 144px 50px !important;
+}
+/*
+This Class is for pages that have only one row of buttons.
+*/
+.bottomRow2{
+	clear: both;
+	width:1050px;
+	margin: auto;
+}
+/*
+here extra padding is added to accommodate for the "missing"rows 
+this is for pages that have one row of buttons and not three.
+*/
+.bottomRow2 a{
+	margin: 258px 50px !important;
+}
+a{
+	    text-decoration: none;
+}
