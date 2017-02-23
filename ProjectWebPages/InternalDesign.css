@@ -1,15 +1,20 @@
 /*
-this page is to control the design settings for all pages except the main page. 
-most settings are the same except a few miner tweaks. 
-is a setting is unclear you can look for the remark in the 
-MainDesign.css file. all tweaks that are unique for this file 
+this page is to control the design settings for all pages except the main page.
+most settings are the same except a few miner tweaks.
+is a setting is unclear you can look for the remark in the
+MainDesign.css file. all tweaks that are unique for this file
 are explained bellow.
-*/ 
+*/
 
 @CHARSET "ISO-8859-1";
 
+form, input{
+    text-align: center;
+	font-size: 20px;
+}
+
 title {
-    
+
 }
 
 body {
@@ -32,7 +37,7 @@ h1 {
 .button {
 	background-color: #000000;
 	color: #FF0000;
-	float: left; 
+	float: left;
 	align ="center";
 	width : 150px;
 	height: 24px;
@@ -80,7 +85,7 @@ div.relative {
 	float: left !important;
 }
 
-.contButtom{ 
+.contButtom{
 	float: right !important;
 }
 
@@ -90,7 +95,7 @@ div.relative {
 	margin: auto;
 }
 /*
-here extra padding is added to accommodate for the "missing"row 
+here extra padding is added to accommodate for the "missing"row
 this is for pages that have two rows of buttons and not three.
 */
 .bottomRow a{
@@ -105,7 +110,7 @@ This Class is for pages that have only one row of buttons.
 	margin: auto;
 }
 /*
-here extra padding is added to accommodate for the "missing"rows 
+here extra padding is added to accommodate for the "missing"rows
 this is for pages that have one row of buttons and not three.
 */
 .bottomRow2 a{
